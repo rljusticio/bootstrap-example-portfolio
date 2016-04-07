@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-example-portfolio",
+  "version": "1.0.0",
+  "description": "an example portfolio made with bootstrap",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-less": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "jit-grunt": "^0.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rljusticio/bootstrap-example-portfolio.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "portfolio",
+    "less",
+    "template"
+  ],
+  "author": "Justin Walters",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rljusticio/bootstrap-example-portfolio/issues"
+  },
+  "homepage": "https://github.com/rljusticio/bootstrap-example-portfolio#readme"
+}
