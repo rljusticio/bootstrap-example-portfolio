@@ -414,8 +414,14 @@
     > li > a {
       color: @navbar-default-link-color;
 
+      x//added ruleset
+      .icon {
+        color: @gray-light;
+      }
       &:hover,
-      &:focus {
+      &:focus,
+      &:hover .icon,
+      &:focus .icon {
         color: @navbar-default-link-hover-color;
         background-color: @navbar-default-link-hover-bg;
       }
